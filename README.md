@@ -8,12 +8,19 @@ You will need the modules Apache and MySQL.
 
 ## Info
 Plugin Name:  Multisite Ticket System
+
 Description: Ticket support system for multisite network. Super Admin receives tickets and manages settings. Administrators of the sites (only) can submit tickets. Allows the installation of categories and e-mail addresses.
+
 Version: 0.5
+
 Author: Merle Miller
+
 Text Domain: multisite-ticket-system
+
 License: GPLv2+
+
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
+
 
 Multisite Ticket System is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
