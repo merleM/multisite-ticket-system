@@ -1,0 +1,95 @@
+.label {
+    display: inline;
+    padding: .2em .6em .3em;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+.label.status-closed {
+    background-color: #5cb85c;
+}
+.label.status-closed:hover {
+    background-color: #449d44;
+}
+.label.status-pending {
+    background-color: #f0ad4e;
+}
+.label.status-pending:hover {
+    background-color: #ec971f;
+}
+.label.status-open {
+    background-color: #d9534f;
+}
+.label.status-open:hover {
+    background-color: #c9302c;
+}
+
+.priority-low {
+    font-weight: 700;
+    color: #5bc0de;
+}
+.priority-low:hover {
+    font-weight: 700;
+    color: #31b0d5;
+}
+.priority-normal {
+    font-weight: 700;
+    color: #5cb85c;
+}
+.priority-normal:hover {
+    font-weight: 700;
+    color: #449d44;
+}
+.priority-medium {
+    font-weight: 700;
+    color: #f0ad4e;
+}
+.priority-medium:hover {
+    font-weight: 700;
+    color: #ec971f;
+}
+.priority-high {
+    font-weight: 700;
+    color: #d9534f;
+}
+.priority-high:hover {
+    font-weight: 700;
+    color: #c9302c;
+}
+
+.commentBubble {
+    border-radius: 25px;
+    background: #FFF;
+    padding: 20px;
+    width: 25%;
+    height: auto;
+}
+
+.comment-line {
+    width: 30%;
+    margin-left: 0;
+}
+
+.comment-line:last-child {
+    display: none;
+}
+
+.widefat th {
+    font-weight: 600 !important;
+}
+
+.settings {
+    margin: 20px 0 20px 0;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.category-title {
+    margin: 0 !important;
+}
+
