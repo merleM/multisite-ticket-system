@@ -27,7 +27,7 @@ $lastLogin = $current_user->last_login;
 		}
 		
 		if( $msts_count != 0 ) {
-			$menu[90][0] .= ' <span class=\'update-plugins count-3\'><span class=\'update-count\'>' . $msts_count . '</span></span>';
+			$menu[90][0] .= ' <span class=\'update-plugins count-3\'><span class=\'update-count\'> ! </span></span>';
 		}
     } else {
 		$sql_dates = "SELECT update_date
@@ -42,7 +42,7 @@ $lastLogin = $current_user->last_login;
 		}
 		
 		if( $msts_count != 0 ) {
-			$menu[90][0] .= ' <span class=\'update-plugins count-3\'><span class=\'update-count\'> ! </span></span>';
+			$menu[90][0] .= ' <span class=\'update-plugins count-3\'><span class=\'update-count\'>' . $msts_count .  '</span></span>';
 		}
     }
 

@@ -130,14 +130,14 @@ class MSTS_Table extends msts_WP_List_Table {
                     $msts_addSQL .= "c.id=$categoryValue";
                 }
 
-                if ( $_POST['priority'] != "Alle" ) {
+                if ( $_POST['priority'] != "all" ) {
                     $msts_addSQL .= ($msts_addUsed)?' AND ':'';
                     $msts_addUsed = true;
                     $priorityValue = $_POST['priority'];
                     $msts_addSQL .= "t.priority='".$priorityValue."'";
                 }
 
-                if ( $_POST['status'] != "Alle" ) {
+                if ( $_POST['status'] != "all" ) {
                     $msts_addSQL .= ($msts_addUsed)?' AND ':'';
                     $msts_addUsed = true;
                     $statusValue = $_POST['status'];
@@ -414,7 +414,7 @@ class MSTS_Table extends msts_WP_List_Table {
         /** Existing category is changed */
         if( isset( $_POST['submitCat']) ) {
             $resultUpdate = $wpdb->update( $table_name, array(
-                                                        'name' => $_POST['cat_name'],
+
                                                         'recipient' => $_POST['cat_recipient'],
                                                         'recipient_email' => $_POST['cat_email']),
                                                         array( 'id' =>  $_POST['cat_id'] )

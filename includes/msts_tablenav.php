@@ -9,52 +9,52 @@ if ( !defined( 'ABSPATH' ) ) {
     <form method="post">
         <?php if (isset($_POST['filterBy'])) { ?>
         <select name="category">
-            <option value="0">Nach Kategorie filtern</option>
+            <option value="0"><?php _e('Nach Kategorie filtern', 'multisite-ticket-system'); ?></option>
             <?php foreach( $categories as $category ) { ?>
               <option <?php if ($_POST['category'] == $category->id) { ?>selected="true" <?php }; ?>value="<?php echo $category->id; ?>"><?php echo $category->name; ?></option>
             <?php } ?>
         </select>
 
         <select name="priority">
-            <option <?php if ($_POST['priority'] == 'all') { ?>selected="true" <?php }; ?>value="Alle">Nach Priorität filtern</option>
-            <option <?php if ($_POST['priority'] == 'Niedrig') { ?>selected="true" <?php }; ?>value="Niedrig">Niedrig</option>
-            <option <?php if ($_POST['priority'] == 'Normal') { ?>selected="true" <?php }; ?>value="Normal">Normal</option>
-            <option <?php if ($_POST['priority'] == 'Mittel') { ?>selected="true" <?php }; ?>value="Mittel">Mittel</option>
-            <option <?php if ($_POST['priority'] == 'Hoch') { ?>selected="true" <?php }; ?>value="Hoch">Hoch</option>
+            <option <?php if ($_POST['priority'] == 'all') { ?>selected="true" <?php }; ?>value="all"><?php _e('Nach Priorität filtern', 'multisite-ticket-system'); ?></option>
+            <option <?php if ($_POST['priority'] == __('Niedrig', 'multisite-ticket-system')) { ?>selected="true" <?php }; ?>value="<?php _e('Niedrig', 'multisite-ticket-system'); ?>"><?php _e('Niedrig', 'multisite-ticket-system'); ?></option>
+            <option <?php if ($_POST['priority'] == __('Normal', 'multisite-ticket-system')) { ?>selected="true" <?php }; ?>value="<?php _e('Normal', 'multisite-ticket-system'); ?>"><?php _e('Normal', 'multisite-ticket-system'); ?></option>
+            <option <?php if ($_POST['priority'] == __('Mittel', 'multisite-ticket-system')) { ?>selected="true" <?php }; ?>value="<?php _e('Mittel', 'multisite-ticket-system'); ?>"><?php _e('Mittel', 'multisite-ticket-system'); ?></option>
+            <option <?php if ($_POST['priority'] == __('Hoch', 'multisite-ticket-system')) { ?>selected="true" <?php }; ?>value="<?php _e('Hoch', 'multisite-ticket-system'); ?>"><?php _e('Hoch', 'multisite-ticket-system'); ?></option>
         </select>
 
         <select name="status">
-            <option <?php if ($_POST['status'] == 'all') { ?>selected="true" <?php }; ?>value="Alle">Nach Status filtern</option>
-            <option <?php if ($_POST['status'] == 'Offen') { ?>selected="true" <?php }; ?>value="Offen">Offen</option>
-            <option <?php if ($_POST['status'] == 'In Bearbeitung') { ?>selected="true" <?php }; ?>value="In Bearbeitung">In Bearbeitung</option>
-            <option <?php if ($_POST['status'] == 'Geschlossen') { ?>selected="true" <?php }; ?>value="Geschlossen">Geschlossen</option>
+            <option <?php if ($_POST['status'] == 'all') { ?>selected="true" <?php }; ?>value="all"><?php _e('Nach Status filtern', 'multisite-ticket-system'); ?></option>
+            <option <?php if ($_POST['status'] == __('Offen', 'multisite-ticket-system')) { ?>selected="true" <?php }; ?>value="<?php _e('Offen', 'multisite-ticket-system'); ?>"><?php _e('Offen', 'multisite-ticket-system'); ?></option>
+            <option <?php if ($_POST['status'] == __('In Bearbeitung', 'multisite-ticket-system')) { ?>selected="true" <?php }; ?>value="<?php _e('In Bearbeitung', 'multisite-ticket-system'); ?>"><?php _e('In Bearbeitung', 'multisite-ticket-system'); ?></option>
+            <option <?php if ($_POST['status'] == __('Geschlossen', 'multisite-ticket-system')) { ?>selected="true" <?php }; ?>value="<?php _e('Geschlossen', 'multisite-ticket-system'); ?>"><?php _e('Geschlossen', 'multisite-ticket-system'); ?></option>
         </select>
 
-        <input type="submit" name="filterBy" class="button" value="Auswahl einschränken">
+        <input type="submit" name="filterBy" class="button" value="<?php _e('Auswahl einschränken', 'multisite-ticket-system'); ?>">
         <?php } else { ?>
             <select name="category">
-                <option value="0">Nach Kategorie filtern</option>
+                <option value="0"><?php _e('Nach Kategorie filtern', 'multisite-ticket-system'); ?></option>
                 <?php foreach( $categories as $category ) { ?>
                     <option value="<?php echo $category->id; ?>"><?php echo $category->name; ?></option>
                 <?php } ?>
             </select>
 
             <select name="priority">
-                <option value="Alle">Nach Priorität filtern</option>
-                <option value="Niedrig">Niedrig</option>
-                <option value="Normal">Normal</option>
-                <option value="Mittel">Mittel</option>
-                <option value="Hoch">Hoch</option>
+                <option value="all"><?php _e('Nach Priorität filtern', 'multisite-ticket-system'); ?></option>
+                <option value="<?php _e('Niedrig', 'multisite-ticket-system'); ?>"><?php _e('Niedrig', 'multisite-ticket-system'); ?></option>
+                <option value="<?php _e('Normal', 'multisite-ticket-system'); ?>"><?php _e('Normal', 'multisite-ticket-system'); ?></option>
+                <option value="<?php _e('Mittel', 'multisite-ticket-system'); ?>"><?php _e('Mittel', 'multisite-ticket-system'); ?></option>
+                <option value="<?php _e('Hoch', 'multisite-ticket-system'); ?>"><?php _e('Hoch', 'multisite-ticket-system'); ?></option>
             </select>
 
             <select name="status">
-                <option value="Alle">Nach Status filtern</option>
-                <option value="Offen">Offen</option>
-                <option value="In Bearbeitung">In Bearbeitung</option>
-                <option value="Geschlossen">Geschlossen</option>
+                <option value="all"><?php _e('Nach Status filtern', 'multisite-ticket-system'); ?></option>
+                <option value="<?php _e('Offen', 'multisite-ticket-system'); ?>"><?php _e('Offen', 'multisite-ticket-system'); ?></option>
+                <option value="<?php _e('In Bearbeitung', 'multisite-ticket-system'); ?>"><?php _e('In Bearbeitung', 'multisite-ticket-system'); ?></option>
+                <option value="<?php _e('Geschlossen', 'multisite-ticket-system'); ?>"><?php _e('Geschlossen', 'multisite-ticket-system'); ?></option>
             </select>
 
-            <input type="submit" name="filterBy" class="button" value="Auswahl einschränken">
+            <input type="submit" name="filterBy" class="button" value="<?php _e('Auswahl einschränken', 'multisite-ticket-system'); ?>">
 
 
         <?php } ?>

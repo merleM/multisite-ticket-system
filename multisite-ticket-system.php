@@ -5,6 +5,7 @@
  *	Version: 0.5
  *	Author: Merle Miller
  *	Text Domain: multisite-ticket-system
+ *  Domain Path: /languages/
  *	License: GPLv2+
  *	License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -50,8 +51,16 @@ class MSTS_Plugin {
 		include ( MSTS_CLASS );
 	}
 
+	/** Load plugin translation files */
+	function msts_load_textdomain() {
+		load_plugin_textdomain( 'multisite-ticket-system', false, basename( dirname( __FILE__ ) ) . '/languages' );
+	}
+
 	/** Add filter and action hooks */
 	public function msts_add(){
+		/** Add action hook for plugin translation files */
+		add_action( 'init', array( $this, 'msts_load_textdomain' ) );
+
 		/** Add WordPress Screen Options for hiding or showing columns */
 		add_filter( 'set-screen-option', array( $this, 'set_screen' ), 1, 3 );
 
@@ -129,7 +138,7 @@ class MSTS_Plugin {
 		);
 
 		add_action( "load-$hook", array( $this, 'screen_option' ) );
-		add_submenu_page( 'msts_plugin', 'Multisite Ticket System Settings', 'Einstellungen', 'administrator', 'msts_settings', array($this,'msts_settings') );
+		add_submenu_page( 'msts_plugin', 'Multisite Ticket System Settings', __('Einstellungen', 'multisite-ticket-system'), 'administrator', 'msts_settings', array($this,'msts_settings') );
 	}
 
 	/** Add custom menu elements to admin menu */
@@ -147,7 +156,7 @@ class MSTS_Plugin {
 			    90
 		);
 		add_action( "load-$hook", array( $this, 'screen_option' ) );
-		add_submenu_page( 'msts_plugin', 'Multisite Ticket System Create Ticket', 'Ticket erstellen', 'administrator', 'msts_create_ticket', array($this,'msts_create_ticket') );
+		add_submenu_page( 'msts_plugin', 'Multisite Ticket System Create Ticket',  __('Ticket erstellen', 'multisite-ticket-system'), 'administrator', 'msts_create_ticket', array($this,'msts_create_ticket') );
 	}
 
 	/** Call function msts_createTicket() from class MSTS_Table */

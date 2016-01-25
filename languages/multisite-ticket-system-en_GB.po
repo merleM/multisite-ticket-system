@@ -1,0 +1,329 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: Multisite Ticket System\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Language: en_GB\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#. Text in function
+#: multisite-ticket-system.php:179 msts_showSettings.php:9
+msgid "Einstellungen"
+msgstr "Settings"
+
+#. Text in function
+#: multisite-ticket-system.php:205
+msgid "Erstellen"
+msgstr "Create"
+
+#. Text in echo
+#: multisite-ticket-system.php:179 multisite-ticket-system.php:205
+msgid "Tickets"
+msgstr "Tickets"
+
+#. Text in function
+#: class-msts-table.php:1
+msgid "Ansehen"
+msgstr "Edit"
+
+#. Text in function
+#: class-msts-table.php:1 msts_createTicket.php:17 msts_showSingleTicket.php:17
+msgid "Betreff"
+msgstr "Subject"
+
+#. Text in echo
+#: class-msts-table.php:1
+msgid "Keine Tickets vorhanden."
+msgstr "No tickets available."
+
+#. Text in echo
+#: class-msts-table.php:1
+msgid "Nicht erlaubt."
+msgstr "Permission denied."
+
+#. Text in echo
+#: class-msts-table.php:1
+msgid "Zuletzt aktualisiert"
+msgstr "Updated on"
+
+#. Text in function
+#: class-msts-table.php:1 msts_showSingleTicket.php:9
+msgid "Ticket"
+msgstr "Ticket"
+
+#. Text in function
+#: class-msts-table.php:241
+msgid "Erstellt"
+msgstr "Created on"
+
+#. Text in function
+#: class-msts-table.php:309
+msgid "Datum"
+msgstr "Date"
+
+#. Text in function
+#: class-msts-table.php:385
+msgid "Kategorie wurde gelöscht."
+msgstr "Category has been deleted."
+
+#. Text in function
+#: class-msts-table.php:388
+msgid "Es ist ein Fehler beim Löschen aufgetreten."
+msgstr "An error occured while deleting category."
+
+#. Text in function
+#: class-msts-table.php:404
+msgid "Kategorie wurde hinzugefügt."
+msgstr "Category has been added."
+
+#. Text in function
+#: class-msts-table.php:407
+msgid "Es ist ein Fehler beim Hinzufügen aufgetreten."
+msgstr "An error occured while adding category."
+
+#. Text in function
+#: class-msts-table.php:424
+msgid "Kategorie wurde aktualisiert."
+msgstr "Category has been updated."
+
+#. Text in function
+#: class-msts-table.php:427
+msgid "Es ist ein Fehler bei der Aktualisierung aufgetreten."
+msgstr "An error occured while updating category."
+
+#. Text in function
+#: class-msts-table.php:487
+msgid "Ticket wurde aktualisiert und Kommentar verschickt."
+msgstr "Ticket has been updated and comment is sent."
+
+#. Text in function
+#: class-msts-table.php:490
+msgid "Es gab ein Problem beim Aktualisieren oder/und Verschicken."
+msgstr "An error occured while updating ticket and/or sending comment."
+
+#. Text in function
+#: class-msts-table.php:571
+msgid "Ticket wurde verschickt."
+msgstr "Ticket has been sent."
+
+#. Text in function
+#: class-msts-table.php:574
+msgid "Es gab ein Problem beim Verschicken."
+msgstr "An error occured while sending ticket."
+
+#. Text in echo
+#: msts_createTicket.php:32 msts_showSingleTicket.php:32
+msgid "Blogtitel"
+msgstr "Blog title"
+
+#. Text in echo
+#: msts_createTicket.php:37 msts_showSettings.php:18 msts_showSettings.php:50
+#: msts_showSingleCategory.php:15 msts_showSingleTicket.php:42
+msgid "Kategorie"
+msgstr "Category"
+
+#. Text in echo
+#: msts_createTicket.php:22 msts_showSingleTicket.php:22
+msgid "Nachricht"
+msgstr "Message"
+
+#. Text in echo
+#: msts_createTicket.php:59 msts_showComments.php:49
+#: msts_showSingleTicket.php:58
+msgid "Priorität"
+msgstr "Priority"
+
+#. Text in echo
+#: msts_createTicket.php:72 msts_showSingleCategory.php:48
+#: msts_showSingleTicket.php:81
+msgid "Speichern"
+msgstr "Save"
+
+#. Text in echo
+#: msts_createTicket.php:54 msts_showComments.php:49
+#: msts_showSingleTicket.php:48
+msgid "Status"
+msgstr "Status"
+
+#. Text in echo
+#: msts_createTicket.php:41
+msgid "Superadministrator"
+msgstr "Network administrator"
+
+#. Text in echo
+#: msts_createTicket.php:9
+msgid "Ticket erstellen"
+msgstr "Create ticket"
+
+#. Text in echo
+#: msts_createTicket.php:27 msts_showSingleTicket.php:27
+msgid "Von"
+msgstr "From"
+
+#. Text in echo
+#: msts_createTicket.php:73 msts_showSettings.php:58
+#: msts_showSingleCategory.php:49 msts_showSingleTicket.php:82
+msgid "Zurücksetzen"
+msgstr "Reset"
+
+#. Text in echo
+#: msts_createTicket.php:43
+msgid "via Mail an"
+msgstr "via mail to"
+
+#. Text in function
+#: msts_installation.php:1
+msgid "Entschuldigung, aber dieses Plugin ist nur für Multisite-Netzwerke geeignet."
+msgstr "Sorry, this plugin is only suitable for multsite networks."
+
+#. Text in echo
+#: msts_showComments.php:40 msts_showSingleTicket.php:69
+msgid "Kommentar"
+msgstr "Comment"
+
+#. Text in echo
+#: msts_showComments.php:9
+msgid "Kommentare"
+msgstr "Comments"
+
+#. Text in echo
+#: msts_showComments.php:40
+msgid "am"
+msgstr "on"
+
+#. Text in echo
+#: msts_showComments.php:40
+msgid "erstellt von"
+msgstr "created by"
+
+#. Text in echo
+#: msts_showSettings.php:13
+msgid "Bei Löschung einer Kategorie werden alle Tickets dieser Kategorie nach \"WordPress Support\" verschoben."
+msgstr "Upon deleting a category, all the tickets of this category will be moved to \"WordPress Support\"."
+
+#. Text in echo
+#: msts_showSettings.php:50
+msgid "Neue Kategorie"
+msgstr "New category"
+
+#. Text in echo
+#: msts_showSettings.php:52
+msgid "E-Mail-Adresse (optional)"
+msgstr "E-mail address (optional)"
+
+#. Text in echo
+#: msts_showSettings.php:20 msts_showSingleCategory.php:17
+msgid "E-Mail-Empfänger"
+msgstr "E-mail recipient"
+
+#. Text in echo
+#: msts_showSettings.php:51
+msgid "Empfänger"
+msgstr "Recipient"
+
+#. Text in echo
+#: msts_showSettings.php:13
+msgid "Hinweis"
+msgstr "Please note"
+
+#. Text in echo
+#: msts_showSettings.php:57
+msgid "Hinzufügen"
+msgstr "Add"
+
+#. Text in function
+#: msts_showSettings.php:42
+msgid "Kategorie löschen"
+msgstr "Delete category"
+
+#. Text in function
+#: msts_showSettings.php:42 msts_showSingleCategory.php:9
+msgid "Kategorie ändern"
+msgstr "Edit category"
+
+#. Text in echo
+#: msts_showSettings.php:22
+msgid "Löschen"
+msgstr "Delete"
+
+#. Text in echo
+#: msts_showSettings.php:19 msts_showSingleCategory.php:16
+msgid "Name"
+msgstr "Name"
+
+#. Text in function
+#: msts_showSettings.php:9
+msgid "Zurück zu Tickets"
+msgstr "Back to tickets"
+
+#. Text in echo
+#: msts_showSettings.php:21
+msgid "Ändern"
+msgstr "Edit"
+
+#. Text in echo
+#: msts_showSingleTicket.php:37
+msgid "Erstellt am"
+msgstr "Created on"
+
+#. Text in echo
+#: msts_tablenav.php:33 msts_tablenav.php:57
+msgid "Auswahl einschränken"
+msgstr "Filter"
+
+#. Text in function
+#: msts_tablenav.php:30 msts_tablenav.php:54
+msgid "Geschlossen"
+msgstr "Closed"
+
+#. Text in function
+#: msts_tablenav.php:23 msts_tablenav.php:47
+msgid "Hoch"
+msgstr "High"
+
+#. Text in function
+#: msts_tablenav.php:29 msts_tablenav.php:53
+msgid "In Bearbeitung"
+msgstr "Pending"
+
+#. Text in function
+#: msts_tablenav.php:22 msts_tablenav.php:46
+msgid "Mittel"
+msgstr "Medium"
+
+#. Text in echo
+#: msts_tablenav.php:12 msts_tablenav.php:36
+msgid "Nach Kategorie filtern"
+msgstr "Filter by category"
+
+#. Text in echo
+#: msts_tablenav.php:19 msts_tablenav.php:43
+msgid "Nach Priorität filtern"
+msgstr "Filter by priority"
+
+#. Text in echo
+#: msts_tablenav.php:27 msts_tablenav.php:51
+msgid "Nach Status filtern"
+msgstr "Filter by status"
+
+#. Text in function
+#: msts_tablenav.php:20 msts_tablenav.php:44
+msgid "Niedrig"
+msgstr "Low"
+
+#. Text in function
+#: msts_tablenav.php:21 msts_tablenav.php:45
+msgid "Normal"
+msgstr "Normal"
+
+#. Text in function
+#: msts_tablenav.php:28 msts_tablenav.php:52
+msgid "Offen"
+msgstr "Open"

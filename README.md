@@ -1,10 +1,15 @@
 # Multisite Ticket System
 
-Multisite Ticket System is a plugin for WordPress Multisite Network
+Multisite Ticket System is a plugin for WordPress Multisite Network.
 
-To use it, copy the folder to your 'wordpress/wp-content/plugins' folder. 
-If you wish to test it on a local server, you can use XAMPP or any other web server solution.
+There are a lot of WordPress ticket system plugins out there, but rarely ones (or none) that are intended for improved communication between network admin and site admins in a multisite network.
+This is all the more convenient if your organization manages many regional groups throughout the country or in general manages many sites that are administered by different people with diverse kinds of WordPress knowledge, especially by people with zero knowledge of WordPress. In these cases, the network admin is able to help more efficiently through this ticket system, e.g. instead of managing requests via e-mail.
+
+To use the plugin, copy the downloaded folder to your 'wordpress/wp-content/plugins' folder. Since the plugin has been developed for a German organization, German texts are used in the plugin.
+There are English translations available in the "languages/" folder for US and GB (.mo files as well as .po files). If you wish to use the English tranlations for different countries as provided, either change the country code in the file name or message me and I will take care of it.
+If you wish to test the plugin on a local server, you can use XAMPP or any other web server solution.
 You will need the modules Apache and MySQL.
+
 
 ## Info
 Plugin Name:  Multisite Ticket System
@@ -34,3 +39,16 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with Multisite Ticket System. If not, see License URI.
+
+## Screenshots
+
+You can find some screenshots of the plugin features in the "screenshots/" folder.
+
+![Tickets overview in network admin](screenshots/msts_screenshot01_networktickets.jpg)
+
+![Settings overview in network admin](screenshots/msts_screenshot02_settings.jpg)
+
+![Tickets overview in site admin](screenshots/msts_screenshot04_admintickets.jpg)
+
+![Create a ticket in site admin](screenshots/msts_screenshot05_createTicket.jpg)
+
