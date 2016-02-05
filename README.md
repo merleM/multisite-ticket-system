@@ -5,7 +5,11 @@ Multisite Ticket System is a plugin for WordPress Multisite Network.
 There are a lot of WordPress ticket system plugins out there, but rarely ones (or none) that are intended for improved communication between Super Admin and site Administrators in a Multisite Network.
 This is all the more convenient if your organization manages many regional groups throughout the country or in general manages many sites that are administered by different people with diverse kinds of WordPress knowledge, especially by people with zero knowledge of WordPress. In these cases, the Super Admin is able to help more efficiently through this ticket system, e.g. instead of managing requests via e-mail.
 
-To use the plugin, copy the downloaded folder to your 'wordpress/wp-content/plugins' folder. Since the plugin has been developed for a German organization, German texts are used in the plugin.
+To use the plugin, you have two choices:
+1. Copy the downloaded and unzipped folder to your 'wordpress/wp-content/plugins' folder. 
+2. Install the plugin through the WordPress plugins screen, it is also featured in the official WP Plugin Directory.
+
+Since the plugin has been developed for a German organization, German texts are used in the plugin.
 There are English translations available in the 'languages/' folder for US and GB (.mo files as well as .po files). If you wish to use the English translations for different countries as provided, either change the country code in the file name or message me and I will take care of it.
 If you wish to test the plugin on a local server, you can use XAMPP or any other web server solution.
 You will need the modules Apache and MySQL.
