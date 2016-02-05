@@ -6,7 +6,9 @@ There are a lot of WordPress ticket system plugins out there, but rarely ones (o
 This is all the more convenient if your organization manages many regional groups throughout the country or in general manages many sites that are administered by different people with diverse kinds of WordPress knowledge, especially by people with zero knowledge of WordPress. In these cases, the Super Admin is able to help more efficiently through this ticket system, e.g. instead of managing requests via e-mail.
 
 To use the plugin, you have two choices:
+
 1. Copy the downloaded and unzipped folder to your 'wordpress/wp-content/plugins' folder. 
+
 2. Install the plugin through the WordPress plugins screen, it is also featured in the official WP Plugin Directory.
 
 Since the plugin has been developed for a German organization, German texts are used in the plugin.
