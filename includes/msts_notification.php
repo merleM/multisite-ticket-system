@@ -5,9 +5,8 @@ if ( !defined( 'ABSPATH' ) ) {
 }
 
 global $menu;
-global $current_user;
 global $wpdb;
-get_currentuserinfo();
+$current_user = wp_get_current_user();
 
 $userID = $current_user->ID;
 $lastLogin = $current_user->last_login;

@@ -72,8 +72,7 @@ class MSTS_Table extends msts_WP_List_Table {
     */
     private function msts_get_tickets( $per_page = 10, $page_number = 1 ) {
         global $wpdb;
-        global $current_user;
-        get_currentuserinfo();
+        $current_user = wp_get_current_user();
         $blog_id = get_current_blog_id();
 
         /** Checks if current user is not super admin
@@ -527,8 +526,7 @@ class MSTS_Table extends msts_WP_List_Table {
         global $msts_prio_medium;
         global $msts_prio_high;
         global $titleUrl;
-        global $current_user;
-        get_currentuserinfo();
+        $current_user = wp_get_current_user();
         $msts_blog_name = get_bloginfo('name');
 
         $sql="SELECT *

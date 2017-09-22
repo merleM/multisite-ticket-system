@@ -2,7 +2,7 @@
 /**
  *	Plugin Name:  Multisite Ticket System
  *	Description: Ticket support system for multisite network. Super Admin receives tickets and manages settings (categories and e-mail addresses). Administrators of the sites (only) can submit tickets. Uses a comment section for updating tickets.
- *	Version: 0.5
+ *	Version: 1.0
  *	Author: Merle Miller
  *	Text Domain: multisite-ticket-system
  *  Domain Path: /languages/
